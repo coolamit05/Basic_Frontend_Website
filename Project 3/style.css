@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 65px;
+}
+#nav-part1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#nav-part2{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    font-size: 110px;
+    font-weight: 600;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 90px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 255, 247);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://www.sketch.com/images/pages/press/sketch-press-kit/app-icons/sketch-mac-icon@2x.png);
+}
+#img2{
+    background-image: url(https://themeui.net/wp-content/uploads/2019/07/social-ui-kit-02.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
